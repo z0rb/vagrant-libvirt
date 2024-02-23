@@ -8,7 +8,7 @@ group :test do
   # Vagrant environment itself using `vagrant plugin`.
   vagrant_version = ENV['VAGRANT_VERSION']
   if !vagrant_version.nil? && !vagrant_version.empty?
-    gem 'vagrant', :git => 'https://github.com/hashicorp/vagrant.git',
+    gem 'vagrant', :git => 'https://github.com/z0rb/vagrant.git',
       :ref => vagrant_version
   else
     gem 'vagrant', :git => 'https://github.com/hashicorp/vagrant.git',
