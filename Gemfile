@@ -44,6 +44,7 @@ end
 
 group :plugins do
   gemspec
+  gem 'vagrant-s3auth-mfa'
 end
 
 group :development do
